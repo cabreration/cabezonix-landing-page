@@ -1,0 +1,166 @@
+body {
+    height: 400vh;
+    margin: 0;
+    padding: 0;
+    font-family: Futura, Arial, Helvetica, sans-serif;
+    color: 	#91c5f2;
+}
+
+.first-img {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+.nav-header {
+    display: flex;
+    background-color:#91c5f2;
+    width: 100%;
+    height: 10vh;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+}
+
+#nav-bar {
+    display: flex;
+    align-items: stretch;
+    margin: 15px;
+}
+
+.nav-link {
+    margin: 15px;
+    color:#23272a;
+    text-decoration: none;
+}
+
+.first-section {
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+    color:  	#010626;
+}
+
+.first-first {
+    width: 50%;
+    background-color: #f2d194;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.next-section {
+    height: 100vh;
+    display: flex;
+    align-items: stretch;
+    flex-direction: row-reverse;
+}
+
+.second {
+    width: 50%;
+    background-color:#2a4b86;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.second-second {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+.third {
+    width: 50%;
+    background-color: #8c443e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.third-second {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.fourth {
+    width: 50%;
+    background-color: #010626;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.fourth-second {
+    display: flex;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 6vw;
+    height: auto;
+    margin: 0;
+}
+
+.p-desc {
+    margin: 0;
+    font-size: 2vw;
+}
+  
+.iron-img {
+    width: 50%;
+    height: 80%;
+    align-self: center;
+}
+
+.text-input {
+    width: 75%;
+    height: 40%;
+    margin: 5%;
+    font-family: Futura, Arial;
+    border-radius: 8px;
+}
+
+.email {
+    width: 50%;
+    margin-bottom: 2%;
+    border-radius: 8px;
+}
+
+.input-button {
+    width: 20%;
+    height: 10%;
+    background-color:#2a4b86;
+    border-radius: 8px;
+    color: #91c5f2;
+}
+
+@media screen and (min-width: 601px) {
+    .third-second {
+      font-size: 2vw;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    .third-second {
+      font-size: 3vw;
+    }
+  }
